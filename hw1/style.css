@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: #f7f7f7;
+}
+.warning {
+	background: #ffc4c6;
+	color: #a20606;
+	text-align: center;
+	padding: 10px 0;
+}
+.board {
+	background: white;
+	max-width: 700px;
+	padding: 15px 30px 60px 30px;
+	margin: 20px auto;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #e8e8e8;
+}
+
+.new-comment__nickname {
+	border: 1px solid #c2dffb;
+	padding: 5px;
+}
+.new-comment__text {
+	border: 1px solid #c2dffb;
+	width: 100%;
+	margin-top: 5px;
+}
+.new-comment__submit-btn {
+	padding: 10px 30px;
+	background: white;
+	border: 1px solid #c2dffb;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.hr {
+	max-width: 95%;
+	margin: 20px auto;
+	height: 2px;
+	background: #e8e8e8;
+}
+.card {
+	display: flex;
+	margin: 40px 0;
+}
+.card__avatar {
+	min-width: 50px;
+	height: 50px;
+	background: #e4f0fb;
+	border-radius: 50%;
+}
+.card__part {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.card__nickname {
+	font-weight: bold;
+	color: #5c9edc;
+}
+.card__time {
+	color: #a0a0a0;
+}
+.card__comment {
+	margin-top: 10px;
+	word-break: break-all;
+	white-space: pre-wrap;
+}
+.btn {
+	text-decoration: none;
+	padding: 10px 30px;
+	background: white;
+	border: 1px solid #c2dffb;
+	font-size: 16px;
+	display: inline-block;
+	margin-bottom: 5px;
+	color: black;
+	border-radius: 5px;
+}
+
+.btns {
+	margin: 5px 0;
+}
+
+.errorMessage {
+	color: red;
+	margin: 10px 0;
+}
+
+.change_nickname_btn {
+	cursor: pointer;
+	margin-left: 5px;
+	border: 1px solid #c2dffb;
+}
+.change_nickname__input {
+	border: 1px solid #c2dffb;
+}
+.change_nickname {
+	margin: 10px 0;
+}
+
+.end {
+	text-align: center;
+}
+
+.total {
+	display: inline-block;
+	margin: 10px 0;
+}
+.hidden {
+	display: none;
+}
+
+.authority-btn {
+	margin-left: 5px;
+}
+.change_authority {
+	margin-top: 10px;
+}
